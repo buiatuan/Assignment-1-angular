@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url("assets/imgs/background.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+.header img{
+  border-radius: 100%;
+}
+.account{
+  width: 360px;
+  margin-top: 200px;
+}
+a{
+  color: #ffffff;
+}
+a:hover{
+  color: #faf2cc;
+}
+.account  input{
+  border-radius: 25px;
+  height: 44px;
+}
+.account .btn{
+  width: 100%;
+  border-radius: 25px;
+  background-color: #222222;
+  padding: 10px 12px;
+  font-weight: 600;
+  outline: none;
+  border-color: #222222;
+}
+.account .btn:active,.account .btn:active{
+  border-color: #222222;
+  background-color: #222222;
+}
+.header{
+  padding-bottom: 20px;
+}
+.foooter{
+  padding-top: 20px;
+}
+.current-weather{
+  position: relative;
+}
+.current-weather img{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+.forecast{
+  width: 1200px;
+  margin-left: -447px;
+}
+
